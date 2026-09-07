@@ -13,7 +13,7 @@ X = data[["Size", "Bathroom"]]
 y = data["Rent"]
 
 # Create and train the model
-model = LinearRegression()
+model = polynomialRegression()
 model.fit(X, y)
 
 # Predictions
