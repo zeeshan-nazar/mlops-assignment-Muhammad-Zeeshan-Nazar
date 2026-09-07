@@ -12,7 +12,7 @@ print(data.head())
 X = data[["Size", "Bathroom"]]
 y = data["Rent"]
 
-# Create and train the model
+# Create and train the model using linear regression
 model = LinearRegression()
 model.fit(X, y)
 
