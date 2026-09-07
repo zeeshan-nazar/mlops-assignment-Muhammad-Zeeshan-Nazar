@@ -12,8 +12,8 @@ print(data.head())
 X = data[["Size", "Bathroom"]]
 y = data["Rent"]
 
-# Create and train the model
-model = polynomialRegression()
+# Create and train the model using linear regression
+model = LinearRegression()
 model.fit(X, y)
 
 # Predictions
